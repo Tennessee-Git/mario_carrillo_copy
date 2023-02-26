@@ -1,4 +1,5 @@
 import { Block } from "./components/Block";
+import { Menu } from "./components/Menu";
 import "./styles/App.css";
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
           ></Block>
         </div>
       </div>
+      <Menu />
     </div>
   );
 }

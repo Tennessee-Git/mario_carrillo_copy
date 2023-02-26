@@ -2,6 +2,7 @@
   background-color: white;
   color: #7b7b7b;
   position: relative;
+  animation: 1s block-load;
 }
 
 .Block:hover {
@@ -49,4 +50,14 @@
 .BlockImageBig {
   width: 356px;
   height: 356px;
+}
+
+@keyframes block-load {
+  0% {
+    transform: scale(0%) rotate(180deg);
+  }
+
+  100% {
+    transform: scale(100%) rotate(360deg);
+  }
 }

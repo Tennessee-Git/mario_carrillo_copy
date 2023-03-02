@@ -4,13 +4,19 @@
     "Lucida Sans", Arial, sans-serif;
   background-color: #f4f4f4;
   overflow-anchor: none;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
 }
 
 .Blocks {
   display: grid;
   gap: 22px;
   grid-auto-rows: 310px;
+  grid-template-columns: repeat(3, 310px);
 }
 
 @media (min-width: 650px) {

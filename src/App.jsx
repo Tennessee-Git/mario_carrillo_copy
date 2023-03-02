@@ -48,11 +48,6 @@ const blocks = [
     title: "S6",
     image: "https://picsum.photos/170?random=8",
   },
-  {
-    size: "small",
-    title: "S7",
-    image: "https://picsum.photos/170?random=9",
-  },
 ];
 
 function App() {

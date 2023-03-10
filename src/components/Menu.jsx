@@ -9,13 +9,19 @@ export const Menu = () => {
       </div>
       <nav className="MenuNav">
         <li className="MenuNavItem">
-          <a className="Link">About</a>
+          <a className="Link" href="">
+            About
+          </a>
         </li>
         <li className="MenuNavItem">
-          <a className="Link">Projects</a>
+          <a className="Link" href="">
+            Projects
+          </a>
         </li>
         <li className="MenuNavItem">
-          <a className="Link">Contact</a>
+          <a className="Link" href="">
+            Contact
+          </a>
         </li>
       </nav>
     </div>

@@ -17,6 +17,7 @@
   gap: 22px;
   grid-auto-rows: 310px;
   grid-template-columns: repeat(3, 310px);
+  overflow: auto;
 }
 
 @media (min-width: 650px) {
